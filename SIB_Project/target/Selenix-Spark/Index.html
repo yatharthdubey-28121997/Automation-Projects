@@ -1,0 +1,688 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>BDD Cucumber Demo - Extent Reports</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Demo Test Reports</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jan 8, 2026 08:08:54 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@Renewal</a><a class="dropdown-item" href="#">@SIB</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Renewal Flow with own test data creation</p>
+            <p class="text-sm">
+              <span>8:08:56 pm</span> / <span>00:02:49:071</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Renewal Flow with own test data creation</h5>
+<span class='badge badge-success'>01.08.2026 8:08:56 pm</span>
+<span class='badge badge-danger'>01.08.2026 8:11:45 pm</span>
+<span class='badge badge-default'>00:02:49:071</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Renewal Flow with own test data creation</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Renewal Flow with own test data creation</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User login into the Salesforce "SIBQA" Environment</span>
+      <div>Logged Successfully in 'SIBQA' Environment
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User swtiches to "Sales" App</span>
+      <div>Already on 'Sales' App. No need to switch.
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User selects "Shweta Patil" Contact from "Salesforce Home" Page</span>
+      <div>'Shweta Patil' Contact selected successfully
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the "Log in to Experience as User" button on "Salesforce Contact" page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the "SIB Store" button on "Salesforce Log in as Site User" page</span>
+      <div>'SIB Store' Button clicked successfully
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User waits for "ECOM Home" Page to load</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User clears the "Cart" from "ECOM Cart" Page</span>
+      <div>Cart is already empty
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User navigates to "Products & Services" Category from "ECOM Home" page</span>
+      <div>Navigated to 'Products & Services' Category successfully
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User adds "Sample Product" Product with "5" Quantity from "PLP" page</span>
+      <div>'Sample Product' Product is selected with '5.0' Quantity successfully
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the "Cart" button on "PDP" page</span>
+      <div>'Cart' Button clicked successfully
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the "Checkout" button on "Cart" page</span>
+      <div>'Checkout' Button clicked successfully
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters "Random PO" in the "Purchase Order" field on "Checkout" page</span>
+      <div>'PO-8973264' value entered in 'Purchase Order' field successfully
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the "Agree to Terms and Conditions" button on "Checkout" page</span>
+      <div>'Agree to Terms and Conditions' Button clicked successfully
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the "Place Order" button on "Checkout" page</span>
+      <div>'Place Order' Button clicked successfully
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify the "Thank You Your order has been placed." message on "Order Confirmation" page</span>
+      <div>'Thank You Your order has been placed.' displayed successfully
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Verify "Cart" object is created in "Salesforce" with all required values</span>
+      <div>WebCart Object Values
+      </div>
+      <div>URL: https://lightningdemo1--sibqa.sandbox.my.salesforce.com/0a6DD0000008igbYAA
+      </div>
+      <div>Expected: Cart_Type__c - 'New', Status - 'Closed', TotalProductCount - '5.0', TotalListAmount - '500.0', TotalProductAmount - '500.0', TotalAmount - '500.0', GrandTotalAmount - '500.0'Expected: Cart_Type__c - 'New', Status - 'Closed', TotalProductCount - '5.0', TotalListAmount - '500.0', TotalProductAmount - '500.0', TotalAmount - '500.0', GrandTotalAmount - '500.0'
+      </div>
+      <div>Actual: Cart_Type__c - 'New', Status - 'Closed', TotalProductCount - '5.0', TotalListAmount - '500.0', TotalProductAmount - '500.0', TotalAmount - '500.0', GrandTotalAmount - '500.0'Actual: Cart_Type__c - 'New', Status - 'Closed', TotalProductCount - '5.0', TotalListAmount - '500.0', TotalProductAmount - '500.0', TotalAmount - '500.0', GrandTotalAmount - '500.0'
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Verify "Cart Item" object is created in "Salesforce" with all required values</span>
+      <div>Cart Item Object Values for 'Sample Product' product
+      </div>
+      <div>URL: https://lightningdemo1--sibqa.sandbox.my.salesforce.com/0a9DD0000008vnfYAA
+      </div>
+      <div>Expected: Quantity - '5.0', SalesPrice - '100.0', TotalLineNetAmount - '500.0', TotalAmount - '500.0'Expected: Quantity - '5.0', SalesPrice - '100.0', TotalLineNetAmount - '500.0', TotalAmount - '500.0'
+      </div>
+      <div>Actual: Quantity - '5.0', SalesPrice - '100.0', TotalLineNetAmount - '500.0', TotalAmount - '500.0'Actual: Quantity - '5.0', SalesPrice - '100.0', TotalLineNetAmount - '500.0', TotalAmount - '500.0'
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Verify "Quote" object is created in "Salesforce" with all required values</span>
+      <div>Quote Object Values
+      </div>
+      <div>URL: https://lightningdemo1--sibqa.sandbox.my.salesforce.com/a0zDD000009sGikYAE
+      </div>
+      <div>Expected: SBQQ__Status__c - 'Approved', SBQQ__StartDate__c - '2026-01-08', SBQQ__ExpirationDate__c - '2026-02-07', SBQQ__SubscriptionTerm__c - '12.0', SBQQ__ListAmount__c - '500.0', SBQQ__RegularAmount__c - '500.0', SBQQ__CustomerAmount__c - '500.0', SBQQ__NetAmount__c - '500.0'Expected: SBQQ__Status__c - 'Approved', SBQQ__StartDate__c - '2026-01-08', SBQQ__ExpirationDate__c - '2026-02-07', SBQQ__SubscriptionTerm__c - '12.0', SBQQ__ListAmount__c - '500.0', SBQQ__RegularAmount__c - '500.0', SBQQ__CustomerAmount__c - '500.0', SBQQ__NetAmount__c - '500.0'
+      </div>
+      <div>Actual: SBQQ__Status__c - 'Approved', SBQQ__StartDate__c - '2026-01-08', SBQQ__ExpirationDate__c - '2027-01-07', SBQQ__SubscriptionTerm__c - '12', SBQQ__ListAmount__c - '500.0', SBQQ__RegularAmount__c - '500.0', SBQQ__CustomerAmount__c - '500.0', SBQQ__NetAmount__c - '500.0'Actual: SBQQ__Status__c - 'Approved', SBQQ__StartDate__c - '2026-01-08', SBQQ__ExpirationDate__c - '2027-01-07', SBQQ__SubscriptionTerm__c - '12', SBQQ__ListAmount__c - '500.0', SBQQ__RegularAmount__c - '500.0', SBQQ__CustomerAmount__c - '500.0', SBQQ__NetAmount__c - '500.0'
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Verify "Quote Line" object is created in "Salesforce" with all required values</span>
+      <div>Quote Line Object Values for 'Sample Product' product
+      </div>
+      <div>URL: https://lightningdemo1--sibqa.sandbox.my.salesforce.com/a0vDD000004nu7VYAQ
+      </div>
+      <div>Expected: SBQQ__DefaultSubscriptionTerm__c - '12.0', SBQQ__SubscriptionType__c - 'Renewable', SBQQ__Quantity__c - '5.0', SBQQ__ListPrice__c - '100.0', SBQQ__CustomerPrice__c - '100.0', SBQQ__NetPrice__c - '100.0', SBQQ__RegularPrice__c - '100.0', SBQQ__ListTotal__c - '500.0', SBQQ__CustomerTotal__c - '500.0', SBQQ__NetTotal__c - '500.0'Expected: SBQQ__DefaultSubscriptionTerm__c - '12.0', SBQQ__SubscriptionType__c - 'Renewable', SBQQ__Quantity__c - '5.0', SBQQ__ListPrice__c - '100.0', SBQQ__CustomerPrice__c - '100.0', SBQQ__NetPrice__c - '100.0', SBQQ__RegularPrice__c - '100.0', SBQQ__ListTotal__c - '500.0', SBQQ__CustomerTotal__c - '500.0', SBQQ__NetTotal__c - '500.0'
+      </div>
+      <div>Actual: SBQQ__DefaultSubscriptionTerm__c - '12', SBQQ__SubscriptionType__c - 'Renewable', SBQQ__Quantity__c - '5.0', SBQQ__ListPrice__c - '100.0', SBQQ__CustomerPrice__c - '100.0', SBQQ__NetPrice__c - '100.0', SBQQ__RegularPrice__c - '100.0', SBQQ__ListTotal__c - '500.0', SBQQ__CustomerTotal__c - '500.0', SBQQ__NetTotal__c - '500.0'Actual: SBQQ__DefaultSubscriptionTerm__c - '12', SBQQ__SubscriptionType__c - 'Renewable', SBQQ__Quantity__c - '5.0', SBQQ__ListPrice__c - '100.0', SBQQ__CustomerPrice__c - '100.0', SBQQ__NetPrice__c - '100.0', SBQQ__RegularPrice__c - '100.0', SBQQ__ListTotal__c - '500.0', SBQQ__CustomerTotal__c - '500.0', SBQQ__NetTotal__c - '500.0'
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Verify "Order" object is created in "Salesforce" with all required values</span>
+      <div>Order Number: '00000193' is 'Activated'
+      </div>
+      <div>Order Object Values
+      </div>
+      <div>URL: https://lightningdemo1--sibqa.sandbox.my.salesforce.com/801DD000002L7sJYAS
+      </div>
+      <div>Expected: EffectiveDate - '2026-01-08', TotalAmount - '500.0', Status - 'Activated'Expected: EffectiveDate - '2026-01-08', TotalAmount - '500.0', Status - 'Activated'
+      </div>
+      <div>Actual: EffectiveDate - '2026-01-08', TotalAmount - '500.0', Status - 'Activated'Actual: EffectiveDate - '2026-01-08', TotalAmount - '500.0', Status - 'Activated'
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Verify "Order Item" object is created in "Salesforce" with all required values</span>
+      <div>Order Item Object Values  for 'Sample Product' product
+      </div>
+      <div>URL: https://lightningdemo1--sibqa.sandbox.my.salesforce.com/802DD000006Lg4QYAS
+      </div>
+      <div>Expected: SBQQ__Status__c - 'Activated', ServiceDate - '2026-01-08', EndDate - '2027-01-07', Quantity - '5.0', ListPrice - '100.0', UnitPrice - '100.0', TotalPrice - '500.0'Expected: SBQQ__Status__c - 'Activated', ServiceDate - '2026-01-08', EndDate - '2027-01-07', Quantity - '5.0', ListPrice - '100.0', UnitPrice - '100.0', TotalPrice - '500.0'
+      </div>
+      <div>Actual: SBQQ__Status__c - 'Activated', ServiceDate - '2026-01-08', EndDate - '2027-01-07', Quantity - '5.0', ListPrice - '100.0', UnitPrice - '100.0', TotalPrice - '500.0'Actual: SBQQ__Status__c - 'Activated', ServiceDate - '2026-01-08', EndDate - '2027-01-07', Quantity - '5.0', ListPrice - '100.0', UnitPrice - '100.0', TotalPrice - '500.0'
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Verify "Contract" object is created in "Salesforce" with all required values</span>
+      <div>Contract Object Values
+      </div>
+      <div>URL: https://lightningdemo1--sibqa.sandbox.my.salesforce.com/800DD000000upJjYAI
+      </div>
+      <div>Expected: StartDate - '2026-01-08', EndDate - '2027-01-07', ContractTerm - '12'Expected: StartDate - '2026-01-08', EndDate - '2027-01-07', ContractTerm - '12'
+      </div>
+      <div>Actual: StartDate - '2026-01-08', EndDate - '2027-01-07', ContractTerm - '12'Actual: StartDate - '2026-01-08', EndDate - '2027-01-07', ContractTerm - '12'
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Verify "Subscription" object is created in "Salesforce" with all required values</span>
+      <div>Subscription Object Values  for 'Sample Product' product
+      </div>
+      <div>URL: https://lightningdemo1--sibqa.sandbox.my.salesforce.com/a1BDD00000MNbJ82AL
+      </div>
+      <div>Expected: SBQQ__StartDate__c - '2026-01-08', SBQQ__EndDate__c - '2027-01-07', SBQQ__Quantity__c - '5.0', SBQQ__ListPrice__c - '100.0', SBQQ__SpecialPrice__c - '100.0', SBQQ__CustomerPrice__c - '100.0', SBQQ__RegularPrice__c - '100.0', SBQQ__NetPrice__c - '100.0'Expected: SBQQ__StartDate__c - '2026-01-08', SBQQ__EndDate__c - '2027-01-07', SBQQ__Quantity__c - '5.0', SBQQ__ListPrice__c - '100.0', SBQQ__SpecialPrice__c - '100.0', SBQQ__CustomerPrice__c - '100.0', SBQQ__RegularPrice__c - '100.0', SBQQ__NetPrice__c - '100.0'
+      </div>
+      <div>Actual: SBQQ__StartDate__c - '2026-01-08', SBQQ__EndDate__c - '2027-01-07', SBQQ__Quantity__c - '5.0', SBQQ__ListPrice__c - '100.0', SBQQ__SpecialPrice__c - '100.0', SBQQ__CustomerPrice__c - '100.0', SBQQ__RegularPrice__c - '100.0', SBQQ__NetPrice__c - '100.0'Actual: SBQQ__StartDate__c - '2026-01-08', SBQQ__EndDate__c - '2027-01-07', SBQQ__Quantity__c - '5.0', SBQQ__ListPrice__c - '100.0', SBQQ__SpecialPrice__c - '100.0', SBQQ__CustomerPrice__c - '100.0', SBQQ__RegularPrice__c - '100.0', SBQQ__NetPrice__c - '100.0'
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User update "Contract" fields to be visible on "ECOM" page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User clicks on the "Subscriptions" button on "ECOM Home" page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the "Renew" button on "Subscriptions" page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the "Proceed" button on "Subscriptions" page</span>
+      <div>'Proceed' Button clicked successfully
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify all the "Products" are added to the Cart on "ECOM Cart" Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the "Cart" button on "PDP" page</span>
+      <div>'Cart' Button clicked successfully
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the "Checkout" button on "Cart" page</span>
+      <div>'Checkout' Button clicked successfully
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters "Random PO" in the "Purchase Order" field on "Checkout" page</span>
+      <div>'PO-4364620' value entered in 'Purchase Order' field successfully
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the "Agree to Terms and Conditions" button on "Checkout" page</span>
+      <div>'Agree to Terms and Conditions' Button clicked successfully
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the "Place Order" button on "Checkout" page</span>
+      <div>'Place Order' Button clicked successfully
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify the "Thank You Your order has been placed." message on "Order Confirmation" page</span>
+      <div>'Thank You Your order has been placed.' displayed successfully
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@Renewal</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Renewal</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>20:08:56 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Renewal Flow with own test data creation</a>
+<div class="">
+<span class="badge badge-default">Renewal Flow with own test data creation.Renewal Flow with own test data creation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>20:08:56 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Renewal Flow with own test data creation</a>
+<div class="">
+<span class="badge badge-default">Renewal Flow with own test data creation.Renewal Flow with own test data creation</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@SIB</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@SIB</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>20:08:56 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Renewal Flow with own test data creation</a>
+<div class="">
+<span class="badge badge-default">Renewal Flow with own test data creation.Renewal Flow with own test data creation</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>20:08:56 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Renewal Flow with own test data creation</a>
+<div class="">
+<span class="badge badge-default">Renewal Flow with own test data creation.Renewal Flow with own test data creation</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jan 8, 2026 08:08:54 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jan 8, 2026 08:11:45 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>1</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>1</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>34</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Renewal Flow with own test data creation":169.071
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@Renewal</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@SIB</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 1,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 34,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
